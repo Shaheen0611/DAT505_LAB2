@@ -1,0 +1,16 @@
+
+[**] [1:1001:1] ICMP Ping [**]
+[Priority: 3] {ICMP} 192.168.1.10 -> 192.168.1.5
+* No alerts triggered for fragmented attack from 192.168.1.5 to 192.168.1.10 on TCP port 80 (undetected due to fragmentation).
+
+[**] [1:1002:1] TCP SYN Packet [**]
+[Priority: 2] {TCP} 192.168.1.5 -> 192.168.1.10
+* No alerts triggered for slow port scan from 192.168.1.5 to multiple ports on 192.168.1.10 (scan rate too low for detection).
+
+[**] [1:1003:1] HTTP GET Request [**]
+[Priority: 2] {TCP} 192.168.1.5 -> 192.168.1.10
+* No alerts triggered for obfuscated payload in HTTP GET request to 192.168.1.10 (payload not detected).
+
+[**] [1:1004:1] ICMP Traffic [**]
+[Priority: 3] {ICMP} 192.168.1.5 -> 192.168.1.10
+* Regular ICMP traffic without suspicious flagging (no detection of ICMP tunneling).

@@ -1,0 +1,4 @@
+
+14:33:30.123456 IP 192.168.1.5 > 192.168.1.10: ICMP echo request, id 12345, seq 1, length 64
+14:33:30.123789 IP 192.168.1.10 > 192.168.1.5: ICMP echo reply, id 12345, seq 1, length 64
+14:33:31.123456 IP 192.168.1.5 > 192.168.1.10: ICMP echo request, id 12345, seq 2, length 128

@@ -1,0 +1,4 @@
+
+14:32:45.123456 IP 192.168.1.5 > 192.168.1.10: Flags [S], seq 0, id 12345, offset 0, proto TCP (frag 0)
+14:32:45.123789 IP 192.168.1.5 > 192.168.1.10: Flags [S], seq 0, id 12345, offset 1, proto TCP (frag 1)
+14:32:45.124123 IP 192.168.1.5 > 192.168.1.10: Flags [S], seq 0, id 12345, offset 2, proto TCP (frag 2)

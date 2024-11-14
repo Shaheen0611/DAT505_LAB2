@@ -1,0 +1,6 @@
+No.,Time,Source,Destination,Protocol,Length,Info
+1,0.000001,192.168.1.5,192.168.1.10,TCP,40,Flags [S] Seq=0 Win=1024 Len=8 Frag=0
+2,0.000500,192.168.1.5,192.168.1.10,TCP,40,Flags [S] Seq=0 Win=1024 Len=8 Frag=1
+3,0.001000,192.168.1.5,192.168.1.10,TCP,40,Flags [S] Seq=0 Win=1024 Len=8 Frag=2
+4,0.001500,192.168.1.5,192.168.1.10,TCP,40,Flags [S] Seq=0 Win=1024 Len=8 Frag=3
+5,0.002000,192.168.1.5,192.168.1.10,TCP,40,Flags [S] Seq=0 Win=1024 Len=8 Frag=4

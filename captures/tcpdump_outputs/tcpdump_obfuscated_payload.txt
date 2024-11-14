@@ -1,0 +1,4 @@
+
+14:33:15.123456 IP 192.168.1.5.12345 > 192.168.1.10.80: Flags [P.], seq 1:42, ack 1, win 1024, length 41: HTTP: GET / HTTP/1.1
+14:33:15.123789 IP 192.168.1.5.12345 > 192.168.1.10.80: Flags [P.], seq 43:84, ack 1, win 1024, length 41: HTTP: Host: example.com
+14:33:15.124123 IP 192.168.1.5.12345 > 192.168.1.10.80: Flags [P.], seq 85:126, ack 1, win 1024, length 41: HTTP: User-Agent: legitimate
